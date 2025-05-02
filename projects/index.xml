@@ -1,79 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Spaceman Crafts</title>
-    <link>https://AbdullahMansoor123.github.io/spacecraft/</link>
-    <description>Recent content on Spaceman Crafts</description>
+    <title>Projects on Spaceman Crafts</title>
+    <link>https://AbdullahMansoor123.github.io/spacecraft/projects/</link>
+    <description>Recent content in Projects on Spaceman Crafts</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
-    <atom:link href="https://AbdullahMansoor123.github.io/spacecraft/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://AbdullahMansoor123.github.io/spacecraft/blogs/cicd_with_aws/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://AbdullahMansoor123.github.io/spacecraft/blogs/cicd_with_aws/</guid>
-      <description>&lt;h1 id=&#34;cicd-with-aws&#34;&gt;CICD with AWS&lt;/h1&gt;
-&lt;h3 id=&#34;steps&#34;&gt;Steps&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Clone the GitHub Repo&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/AbdullahMansoor123/ml_end2end
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ml_end2end
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Create a Dockerfile&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Define the Dockerfile to build the application.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Create a GitHub Workflow&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Set up GitHub Actions workflow for continuous integration.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Create IAM User and Download Access Key&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create an IAM user in AWS with necessary permissions and download the access key and secret key.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Create AWS ECR Repo and Copy URL&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a repository in AWS Elastic Container Registry (ECR) and copy the repository URL.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Set Up EC2 Instance&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
-&lt;p&gt;As a &lt;strong&gt;Computer Vision Engineer&lt;/strong&gt;, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.&lt;/p&gt;
-&lt;h3 id=&#34;core-competencies&#34;&gt;Core Competencies&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Surface Anomaly Detection&lt;/strong&gt;&lt;br&gt;
-Leverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Real-Time Conveyor-Belt Inspection&lt;/strong&gt;&lt;br&gt;
-Design and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://AbdullahMansoor123.github.io/spacecraft/blogs/my-hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://AbdullahMansoor123.github.io/spacecraft/blogs/my-hugo/</guid>
-      <description>&lt;h1 id=&#34;-how-i-made-my-first-website-using-hugo&#34;&gt;🚀 How I Made My First Website Using Hugo&lt;/h1&gt;
-&lt;p&gt;I recently built my first website using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; — a lightning-fast static site generator. Here&amp;rsquo;s a simple step-by-step guide on how I did it. If you&amp;rsquo;re just getting started, this should help you get your first Hugo site up and running in no time!&lt;/p&gt;
-&lt;h2 id=&#34;1--install-hugo&#34;&gt;1. 🧱 Install Hugo&lt;/h2&gt;
-&lt;p&gt;First, you’ll need to &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;install Hugo&lt;/a&gt;. You can follow the instructions on the official site for your operating system.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="https://AbdullahMansoor123.github.io/spacecraft/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/</link>

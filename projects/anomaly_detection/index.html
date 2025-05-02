@@ -7,19 +7,36 @@
 <meta name="robots" content="index, follow">
 <title>Spaceman Crafts</title>
 <meta name="keywords" content="">
-<meta name="description" content="About Me
-As a Computer Vision Engineer, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.
-Core Competencies
+<meta name="description" content="Project 4: Anomaly Detection with Autoencoders for Rare Defect Identification
+Problem Statement
+Supervised models fail to detect rare or unseen defects.
+Objective
+Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.
+Solution Overview
+A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.
+Workflow
 
+Train autoencoder on clean data
+Compute reconstruction error
+Threshold to identify anomalies
 
-Surface Anomaly Detection
-Leverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.
+Technologies Used
 
+Keras / TensorFlow
+OpenCV, NumPy
+MVTec AD dataset
+Streamlit (optional UI)
 
-Real-Time Conveyor-Belt Inspection
-Design and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.">
+Results
+
+AUC-ROC: 0.91
+Detection Accuracy: ~90%
+False Positive Rate: ~8%
+
+Visuals
+(Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)">
 <meta name="author" content="">
-<link rel="canonical" href="https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/">
+<link rel="canonical" href="https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/">
 <link crossorigin="anonymous" href="/spacecraft/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://AbdullahMansoor123.github.io/spacecraft/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://AbdullahMansoor123.github.io/spacecraft/favicon-16x16.png">
@@ -28,7 +45,7 @@ Design and deploy low-latency vision pipelines for high-speed production lines, 
 <link rel="mask-icon" href="https://AbdullahMansoor123.github.io/spacecraft/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/">
+<link rel="alternate" hreflang="en" href="https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/">
 <noscript>
     <style>
         #theme-toggle,
@@ -65,30 +82,46 @@ Design and deploy low-latency vision pipelines for high-speed production lines, 
         }
 
     </style>
-</noscript><meta property="og:url" content="https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/">
+</noscript><meta property="og:url" content="https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/">
   <meta property="og:site_name" content="Spaceman Crafts">
   <meta property="og:title" content="Spaceman Crafts">
-  <meta property="og:description" content="About Me As a Computer Vision Engineer, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.
-Core Competencies Surface Anomaly Detection
-Leverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.
-Real-Time Conveyor-Belt Inspection
-Design and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.">
+  <meta property="og:description" content="Project 4: Anomaly Detection with Autoencoders for Rare Defect Identification Problem Statement Supervised models fail to detect rare or unseen defects.
+Objective Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.
+Solution Overview A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.
+Workflow Train autoencoder on clean data Compute reconstruction error Threshold to identify anomalies Technologies Used Keras / TensorFlow OpenCV, NumPy MVTec AD dataset Streamlit (optional UI) Results AUC-ROC: 0.91 Detection Accuracy: ~90% False Positive Rate: ~8% Visuals (Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="blogs">
+    <meta property="article:section" content="projects">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="">
-<meta name="twitter:description" content="About Me
-As a Computer Vision Engineer, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.
-Core Competencies
+<meta name="twitter:description" content="Project 4: Anomaly Detection with Autoencoders for Rare Defect Identification
+Problem Statement
+Supervised models fail to detect rare or unseen defects.
+Objective
+Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.
+Solution Overview
+A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.
+Workflow
 
+Train autoencoder on clean data
+Compute reconstruction error
+Threshold to identify anomalies
 
-Surface Anomaly Detection
-Leverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.
+Technologies Used
 
+Keras / TensorFlow
+OpenCV, NumPy
+MVTec AD dataset
+Streamlit (optional UI)
 
-Real-Time Conveyor-Belt Inspection
-Design and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.">
+Results
+
+AUC-ROC: 0.91
+Detection Accuracy: ~90%
+False Positive Rate: ~8%
+
+Visuals
+(Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)">
 
 
 <script type="application/ld+json">
@@ -99,14 +132,14 @@ Design and deploy low-latency vision pipelines for high-speed production lines, 
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "Blogs",
-      "item": "https://AbdullahMansoor123.github.io/spacecraft/blogs/"
+      "name": "Projects",
+      "item": "https://AbdullahMansoor123.github.io/spacecraft/projects/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "",
-      "item": "https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/"
+      "item": "https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/"
     }
   ]
 }
@@ -117,18 +150,18 @@ Design and deploy low-latency vision pipelines for high-speed production lines, 
   "@type": "BlogPosting",
   "headline": "",
   "name": "",
-  "description": "About Me As a Computer Vision Engineer, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.\nCore Competencies Surface Anomaly Detection\nLeverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.\nReal-Time Conveyor-Belt Inspection\nDesign and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.\n",
+  "description": "Project 4: Anomaly Detection with Autoencoders for Rare Defect Identification Problem Statement Supervised models fail to detect rare or unseen defects.\nObjective Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.\nSolution Overview A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.\nWorkflow Train autoencoder on clean data Compute reconstruction error Threshold to identify anomalies Technologies Used Keras / TensorFlow OpenCV, NumPy MVTec AD dataset Streamlit (optional UI) Results AUC-ROC: 0.91 Detection Accuracy: ~90% False Positive Rate: ~8% Visuals (Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)\n",
   "keywords": [
     
   ],
-  "articleBody": "About Me As a Computer Vision Engineer, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.\nCore Competencies Surface Anomaly Detection\nLeverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.\nReal-Time Conveyor-Belt Inspection\nDesign and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.\nOCR in Harsh Environments\nImplement resilient optical character recognition systems that read serial numbers and labels under challenging lighting and motion.\nUnsupervised Defect Discovery\nDevelop autoencoder-based and clustering approaches to uncover unknown defect classes without labeled examples.\nWhat I Deliver Reliable Deployments: End-to-end solutions ready for industrial integration, from data collection to model monitoring. Scalable Architectures: Modular vision microservices that scale horizontally across multiple production cells. ROI-Driven Results: Metrics-first approach—quantifying improvements in defect detection accuracy and throughput to demonstrate tangible value. ",
-  "wordCount" : "169",
+  "articleBody": "Project 4: Anomaly Detection with Autoencoders for Rare Defect Identification Problem Statement Supervised models fail to detect rare or unseen defects.\nObjective Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.\nSolution Overview A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.\nWorkflow Train autoencoder on clean data Compute reconstruction error Threshold to identify anomalies Technologies Used Keras / TensorFlow OpenCV, NumPy MVTec AD dataset Streamlit (optional UI) Results AUC-ROC: 0.91 Detection Accuracy: ~90% False Positive Rate: ~8% Visuals (Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)\nDeployment Useful for early-stage QA systems or evolving production lines.\nBusiness Impact First-line defense against unseen defects, minimizing warranty claims and product recalls.\nLinks GitHub: github.com/your-username/anomaly-detector-autoencoder Demo: yourname.streamlit.app/anomaly-detection ",
+  "wordCount" : "129",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/"
+    "@id": "https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/"
   },
   "publisher": {
     "@type": "Organization",
@@ -197,32 +230,42 @@ Design and deploy low-latency vision pipelines for high-speed production lines, 
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="about-me">About Me<a hidden class="anchor" aria-hidden="true" href="#about-me">#</a></h2>
-<p>As a <strong>Computer Vision Engineer</strong>, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.</p>
-<h3 id="core-competencies">Core Competencies<a hidden class="anchor" aria-hidden="true" href="#core-competencies">#</a></h3>
+  <div class="post-content"><h1 id="project-4-anomaly-detection-with-autoencoders-for-rare-defect-identification">Project 4: Anomaly Detection with Autoencoders for Rare Defect Identification<a hidden class="anchor" aria-hidden="true" href="#project-4-anomaly-detection-with-autoencoders-for-rare-defect-identification">#</a></h1>
+<h2 id="problem-statement">Problem Statement<a hidden class="anchor" aria-hidden="true" href="#problem-statement">#</a></h2>
+<p>Supervised models fail to detect rare or unseen defects.</p>
+<h2 id="objective">Objective<a hidden class="anchor" aria-hidden="true" href="#objective">#</a></h2>
+<p>Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.</p>
+<h2 id="solution-overview">Solution Overview<a hidden class="anchor" aria-hidden="true" href="#solution-overview">#</a></h2>
+<p>A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.</p>
+<h3 id="workflow">Workflow<a hidden class="anchor" aria-hidden="true" href="#workflow">#</a></h3>
+<ol>
+<li>Train autoencoder on clean data</li>
+<li>Compute reconstruction error</li>
+<li>Threshold to identify anomalies</li>
+</ol>
+<h2 id="technologies-used">Technologies Used<a hidden class="anchor" aria-hidden="true" href="#technologies-used">#</a></h2>
 <ul>
-<li>
-<p><strong>Surface Anomaly Detection</strong><br>
-Leverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.</p>
-</li>
-<li>
-<p><strong>Real-Time Conveyor-Belt Inspection</strong><br>
-Design and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.</p>
-</li>
-<li>
-<p><strong>OCR in Harsh Environments</strong><br>
-Implement resilient optical character recognition systems that read serial numbers and labels under challenging lighting and motion.</p>
-</li>
-<li>
-<p><strong>Unsupervised Defect Discovery</strong><br>
-Develop autoencoder-based and clustering approaches to uncover unknown defect classes without labeled examples.</p>
-</li>
+<li>Keras / TensorFlow</li>
+<li>OpenCV, NumPy</li>
+<li>MVTec AD dataset</li>
+<li>Streamlit (optional UI)</li>
 </ul>
-<h3 id="what-i-deliver">What I Deliver<a hidden class="anchor" aria-hidden="true" href="#what-i-deliver">#</a></h3>
+<h2 id="results">Results<a hidden class="anchor" aria-hidden="true" href="#results">#</a></h2>
 <ul>
-<li><strong>Reliable Deployments</strong>: End-to-end solutions ready for industrial integration, from data collection to model monitoring.</li>
-<li><strong>Scalable Architectures</strong>: Modular vision microservices that scale horizontally across multiple production cells.</li>
-<li><strong>ROI-Driven Results</strong>: Metrics-first approach—quantifying improvements in defect detection accuracy and throughput to demonstrate tangible value.</li>
+<li>AUC-ROC: 0.91</li>
+<li>Detection Accuracy: ~90%</li>
+<li>False Positive Rate: ~8%</li>
+</ul>
+<h2 id="visuals">Visuals<a hidden class="anchor" aria-hidden="true" href="#visuals">#</a></h2>
+<p><em>(Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)</em></p>
+<h2 id="deployment">Deployment<a hidden class="anchor" aria-hidden="true" href="#deployment">#</a></h2>
+<p>Useful for early-stage QA systems or evolving production lines.</p>
+<h2 id="business-impact">Business Impact<a hidden class="anchor" aria-hidden="true" href="#business-impact">#</a></h2>
+<p>First-line defense against unseen defects, minimizing warranty claims and product recalls.</p>
+<h2 id="links">Links<a hidden class="anchor" aria-hidden="true" href="#links">#</a></h2>
+<ul>
+<li>GitHub: <a href="#">github.com/your-username/anomaly-detector-autoencoder</a></li>
+<li>Demo: <a href="#">yourname.streamlit.app/anomaly-detection</a></li>
 </ul>
 
 

@@ -2,16 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://AbdullahMansoor123.github.io/spacecraft/blogs/</loc>
-    <lastmod>2025-05-02T16:01:31+05:00</lastmod>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/blogs/cicd_with_aws/</loc>
   </url><url>
     <loc>https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/</loc>
-    <lastmod>2025-05-02T16:01:31+05:00</lastmod>
   </url><url>
-    <loc>https://AbdullahMansoor123.github.io/spacecraft/</loc>
-    <lastmod>2025-05-02T16:01:31+05:00</lastmod>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/blogs/my-hugo/</loc>
+  </url><url>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/</loc>
+  </url><url>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/ocr_for_serial_number_recog/</loc>
+  </url><url>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/surface_defect_detection/</loc>
+  </url><url>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</loc>
+  </url><url>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/blogs/</loc>
   </url><url>
     <loc>https://AbdullahMansoor123.github.io/spacecraft/categories/</loc>
+  </url><url>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/</loc>
+  </url><url>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/</loc>
   </url><url>
     <loc>https://AbdullahMansoor123.github.io/spacecraft/tags/</loc>
   </url>
