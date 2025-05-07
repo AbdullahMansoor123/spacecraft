@@ -1,4 +1,14 @@
-# Project 2: Real-Time Visual Inspection on Conveyor Belt using YOLOv5
+---
+title: "Real-Time Visual Inspection on Conveyor Belt using YOLOv5"
+discription: ""
+datestring: 15/02/2025
+draft: false
+# tags: ["hugo", "image", "post"]
+# cover: 
+    # image: "images\inspect.PNG"
+showtoc: false
+---
+
 
 ## Problem Statement
 Manual inspection on conveyor belts is inefficient and error-prone.
