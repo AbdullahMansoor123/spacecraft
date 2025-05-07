@@ -128,76 +128,74 @@
 
 <article class="first-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/cicd.png" alt="">
+        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/anomaly.JPG" alt="">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">CICD with AWS
+    <h2 class="entry-hint-parent">Anomaly Detection with Autoencoders for Rare Defect Identification
     </h2>
   </header>
   <div class="entry-content">
-    <p>Steps Clone the GitHub Repo
-git clone https://github.com/AbdullahMansoor123/ml_end2end cd ml_end2end Create a Dockerfile
-Define the Dockerfile to build the application. Create a GitHub Workflow
-Set up GitHub Actions workflow for continuous integration. Create IAM User and Download Access Key
-Create an IAM user in AWS with necessary permissions and download the access key and secret key. Create AWS ECR Repo and Copy URL
-Create a repository in AWS Elastic Container Registry (ECR) and copy the repository URL. Set Up EC2 Instance
+    <p>Problem Statement Supervised models fail to detect rare or unseen defects.
+Objective Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.
+Solution Overview A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.
+Workflow Train autoencoder on clean data Compute reconstruction error Threshold to identify anomalies Technologies Used Keras / TensorFlow OpenCV, NumPy MVTec AD dataset Streamlit (optional UI) Results AUC-ROC: 0.91 Detection Accuracy: ~90% False Positive Rate: ~8% Visuals (Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to CICD with AWS" href="https://AbdullahMansoor123.github.io/spacecraft/blogs/cicd_with_aws/"></a>
+  <a class="entry-link" aria-label="post link to Anomaly Detection with Autoencoders for Rare Defect Identification" href="https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/home/my_git_pic.JPEG" alt="">
+        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/num_plate.JPG" alt="">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Computer Vision Engineer
+    <h2 class="entry-hint-parent">OCR for Serial Number Recognition in Manufacturing
     </h2>
   </header>
   <div class="entry-content">
-    <p>About Me As a Computer Vision Engineer, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.
-Core Competencies Surface Anomaly Detection
-Leverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.
-Real-Time Conveyor-Belt Inspection
-Design and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.
+    <p>Problem Statement Poorly printed serial numbers lead to inventory and traceability issues.
+Objective Build a robust OCR pipeline for extracting serial numbers from industrial parts under real-world conditions.
+Solution Overview A complete pipeline using preprocessing and Tesseract OCR to enhance and extract serial numbers accurately.
+Workflow Image cleanup (thresholding, skew correction) Contour detection for ROI Tesseract OCR with format validation Technologies Used Python, OpenCV Tesseract OCR NumPy Streamlit (optional demo UI) Results OCR Accuracy (clean): 97% OCR Accuracy (noisy): 88% Processing Time: &lt; 0.3s/image Visuals (Insert before/after preprocessing, extracted text examples, and UI screenshots here)
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Computer Vision Engineer" href="https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/"></a>
+  <a class="entry-link" aria-label="post link to OCR for Serial Number Recognition in Manufacturing" href="https://AbdullahMansoor123.github.io/spacecraft/projects/ocr_for_serial_number_recog/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Real-Time Visual Inspection on Conveyor Belt using YOLOv5
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Problem Statement Manual inspection on conveyor belts is inefficient and error-prone.
+Objective Develop a real-time computer vision solution that detects, classifies, and counts items on a conveyor belt, highlighting defective ones.
+Solution Overview Utilized YOLOv5 for object detection in conveyor belt video frames, distinguishing between normal and defective products.
+Workflow Video data collection &#43; synthetic anomalies YOLOv5 model training (Roboflow for annotation) Real-time video processing with OpenCV Detection overlays and count tracking Technologies Used Python, OpenCV YOLOv5 (Ultralytics) Roboflow FFmpeg Streamlit Results Real-time FPS: ~20 Detection Accuracy: 96.3% Counting Accuracy: 93.7% Defect Detection: 91.2% Visuals (Insert visuals from video frames, bounding boxes, and count graph screenshots here)
+...</p>
+  </div>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Real-Time Visual Inspection on Conveyor Belt using YOLOv5" href="https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/"></a>
 </article>
 
 <article class="post-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/hugo.PNG" alt="">
+        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/defect.PNG" alt="">
 </figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Hugo Website Setup
+    <h2 class="entry-hint-parent">Surface Defect Detection on Metal Sheets using Deep Learning
     </h2>
   </header>
   <div class="entry-content">
-    <p>I recently built my first website using Hugo — a lightning-fast static site generator. Here’s a simple step-by-step guide on how I did it. If you’re just getting started, this should help you get your first Hugo site up and running in no time!
-1. 🧱 Install Hugo First, you’ll need to install Hugo. You can follow the instructions on the official site for your operating system.
-2. 🌱 Create a New Website Run the following command to create a new Hugo site (replace MyFreshWebsite with your desired name):
+    <p>Problem Statement Factories producing metal sheets face issues with undetected surface defects (scratches, dents, holes), leading to quality control problems.
+Objective Build an AI-powered computer vision system that can automatically detect and localize surface defects on metal sheets with high accuracy and real-time capabilities.
+Solution Overview Developed a deep learning-based defect detection system using a convolutional neural network trained on the MVTec Anomaly Detection (AD) dataset, specifically the “metal_nut” and “metal_sheet” categories.
 ...</p>
   </div>
   <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Hugo Website Setup" href="https://AbdullahMansoor123.github.io/spacecraft/blogs/my-hugo-website/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/sample.JPG" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">My 1st post
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to My 1st post" href="https://AbdullahMansoor123.github.io/spacecraft/blogs/my-first-blog/"></a>
+  <a class="entry-link" aria-label="post link to Surface Defect Detection on Metal Sheets using Deep Learning" href="https://AbdullahMansoor123.github.io/spacecraft/projects/surface_defect_detection/"></a>
 </article>
     </main>
     
