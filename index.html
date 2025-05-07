@@ -75,7 +75,7 @@
   "description": "",
   "logo": "https://AbdullahMansoor123.github.io/spacecraft/favicon.ico",
   "sameAs": [
-      
+      "abdullahmansoor123@gmail.com", "https://www.linkedin.com/in/abdullah-123/", "https://github.com/AbdullahMansoor123"
   ]
 }
 </script>
@@ -121,82 +121,66 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="https://AbdullahMansoor123.github.io/spacecraft/home/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://AbdullahMansoor123.github.io/spacecraft/blogs/" title="Blogs">
+                    <span>Blogs</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://AbdullahMansoor123.github.io/spacecraft/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://AbdullahMansoor123.github.io/spacecraft/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
-<main class="main"> 
+<main class="main"><div class="profile">
+    <div class="profile_inner">
+        <img draggable="false" src="https://AbdullahMansoor123.github.io/spacecraft/home/my_git_pic.jpeg" alt="profile image" title=""
+            height="120" width="120" />
+        <h1>Abdullah</h1>
+        <span>Computer Vision Engineer</span><div class="social-icons" >
+    <a href="abdullahmansoor123@gmail.com" target="_blank" rel="noopener noreferrer me"
+        title="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+    </a>
+    <a href="https://www.linkedin.com/in/abdullah-123/" target="_blank" rel="noopener noreferrer me"
+        title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+    </a>
+    <a href="https://github.com/AbdullahMansoor123" target="_blank" rel="noopener noreferrer me"
+        title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+</div>
 
-<article class="first-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/anomaly.JPG" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Anomaly Detection with Autoencoders for Rare Defect Identification
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Problem Statement Supervised models fail to detect rare or unseen defects.
-Objective Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.
-Solution Overview A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.
-Workflow Train autoencoder on clean data Compute reconstruction error Threshold to identify anomalies Technologies Used Keras / TensorFlow OpenCV, NumPy MVTec AD dataset Streamlit (optional UI) Results AUC-ROC: 0.91 Detection Accuracy: ~90% False Positive Rate: ~8% Visuals (Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Anomaly Detection with Autoencoders for Rare Defect Identification" href="https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/"></a>
-</article>
+    </div>
+</div>
 
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/num_plate.JPG" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">OCR for Serial Number Recognition in Manufacturing
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Problem Statement Poorly printed serial numbers lead to inventory and traceability issues.
-Objective Build a robust OCR pipeline for extracting serial numbers from industrial parts under real-world conditions.
-Solution Overview A complete pipeline using preprocessing and Tesseract OCR to enhance and extract serial numbers accurately.
-Workflow Image cleanup (thresholding, skew correction) Contour detection for ROI Tesseract OCR with format validation Technologies Used Python, OpenCV Tesseract OCR NumPy Streamlit (optional demo UI) Results OCR Accuracy (clean): 97% OCR Accuracy (noisy): 88% Processing Time: &lt; 0.3s/image Visuals (Insert before/after preprocessing, extracted text examples, and UI screenshots here)
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to OCR for Serial Number Recognition in Manufacturing" href="https://AbdullahMansoor123.github.io/spacecraft/projects/ocr_for_serial_number_recog/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Real-Time Visual Inspection on Conveyor Belt using YOLOv5
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Problem Statement Manual inspection on conveyor belts is inefficient and error-prone.
-Objective Develop a real-time computer vision solution that detects, classifies, and counts items on a conveyor belt, highlighting defective ones.
-Solution Overview Utilized YOLOv5 for object detection in conveyor belt video frames, distinguishing between normal and defective products.
-Workflow Video data collection &#43; synthetic anomalies YOLOv5 model training (Roboflow for annotation) Real-time video processing with OpenCV Detection overlays and count tracking Technologies Used Python, OpenCV YOLOv5 (Ultralytics) Roboflow FFmpeg Streamlit Results Real-time FPS: ~20 Detection Accuracy: 96.3% Counting Accuracy: 93.7% Defect Detection: 91.2% Visuals (Insert visuals from video frames, bounding boxes, and count graph screenshots here)
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Real-Time Visual Inspection on Conveyor Belt using YOLOv5" href="https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://AbdullahMansoor123.github.io/spacecraft/images/defect.PNG" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Surface Defect Detection on Metal Sheets using Deep Learning
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Problem Statement Factories producing metal sheets face issues with undetected surface defects (scratches, dents, holes), leading to quality control problems.
-Objective Build an AI-powered computer vision system that can automatically detect and localize surface defects on metal sheets with high accuracy and real-time capabilities.
-Solution Overview Developed a deep learning-based defect detection system using a convolutional neural network trained on the MVTec Anomaly Detection (AD) dataset, specifically the “metal_nut” and “metal_sheet” categories.
-...</p>
-  </div>
-  <footer class="entry-footer"></footer>
-  <a class="entry-link" aria-label="post link to Surface Defect Detection on Metal Sheets using Deep Learning" href="https://AbdullahMansoor123.github.io/spacecraft/projects/surface_defect_detection/"></a>
-</article>
     </main>
     
 <footer class="footer">
