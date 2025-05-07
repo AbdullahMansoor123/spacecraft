@@ -2,17 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blogs/</loc>
-    <lastmod>2025-05-02T16:01:31+05:00</lastmod>
+    <loc>http://localhost:1313/spacecraft/projects/anomaly_detection/</loc>
   </url><url>
-    <loc>//localhost:1313/blogs/intro/</loc>
-    <lastmod>2025-05-02T16:01:31+05:00</lastmod>
+    <loc>http://localhost:1313/spacecraft/tags/aws/</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2025-05-02T16:01:31+05:00</lastmod>
+    <loc>http://localhost:1313/spacecraft/blogs/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/spacecraft/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/spacecraft/tags/cicd/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/blogs/cicd_with_aws/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/tags/computer-vision/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/blogs/intro/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/tags/deep-learning/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/tags/hugo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/blogs/my-hugo-website/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/tags/manufacturing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/blogs/my-first-blog/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/projects/ocr_for_serial_number_recog/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/projects/visual_inspection/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/projects/surface_defect_detection/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/spacecraft/tags/website/</loc>
   </url>
 </urlset>

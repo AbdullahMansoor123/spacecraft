@@ -1,20 +1,200 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Spaceman Crafts</title>
+    <link>http://localhost:1313/spacecraft/</link>
+    <description>Recent content on Spaceman Crafts</description>
     <generator>Hugo -- 0.146.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 May 2025 16:01:31 +0500</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/spacecraft/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intro</title>
-      <link>//localhost:1313/blogs/intro/</link>
-      <pubDate>Fri, 02 May 2025 16:01:31 +0500</pubDate>
-      <guid>//localhost:1313/blogs/intro/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Great to have you here xD!&lt;/p&gt;</description>
+      <title>Anomaly Detection with Autoencoders for Rare Defect Identification</title>
+      <link>http://localhost:1313/spacecraft/projects/anomaly_detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spacecraft/projects/anomaly_detection/</guid>
+      <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Supervised models fail to detect rare or unseen defects.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.&lt;/p&gt;
+&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.&lt;/p&gt;
+&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Train autoencoder on clean data&lt;/li&gt;
+&lt;li&gt;Compute reconstruction error&lt;/li&gt;
+&lt;li&gt;Threshold to identify anomalies&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Keras / TensorFlow&lt;/li&gt;
+&lt;li&gt;OpenCV, NumPy&lt;/li&gt;
+&lt;li&gt;MVTec AD dataset&lt;/li&gt;
+&lt;li&gt;Streamlit (optional UI)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AUC-ROC: 0.91&lt;/li&gt;
+&lt;li&gt;Detection Accuracy: ~90%&lt;/li&gt;
+&lt;li&gt;False Positive Rate: ~8%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CICD with AWS</title>
+      <link>http://localhost:1313/spacecraft/blogs/cicd_with_aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spacecraft/blogs/cicd_with_aws/</guid>
+      <description>&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clone the GitHub Repo&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/AbdullahMansoor123/ml_end2end
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ml_end2end
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a Dockerfile&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Define the Dockerfile to build the application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a GitHub Workflow&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set up GitHub Actions workflow for continuous integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create IAM User and Download Access Key&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create an IAM user in AWS with necessary permissions and download the access key and secret key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create AWS ECR Repo and Copy URL&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a repository in AWS Elastic Container Registry (ECR) and copy the repository URL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Set Up EC2 Instance&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Computer Vision Engineer</title>
+      <link>http://localhost:1313/spacecraft/blogs/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spacecraft/blogs/intro/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;p&gt;As a &lt;strong&gt;Computer Vision Engineer&lt;/strong&gt;, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.&lt;/p&gt;
+&lt;h3 id=&#34;core-competencies&#34;&gt;Core Competencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Surface Anomaly Detection&lt;/strong&gt;&lt;br&gt;
+Leverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Real-Time Conveyor-Belt Inspection&lt;/strong&gt;&lt;br&gt;
+Design and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Website Setup</title>
+      <link>http://localhost:1313/spacecraft/blogs/my-hugo-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spacecraft/blogs/my-hugo-website/</guid>
+      <description>&lt;p&gt;I recently built my first website using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; — a lightning-fast static site generator. Here&amp;rsquo;s a simple step-by-step guide on how I did it. If you&amp;rsquo;re just getting started, this should help you get your first Hugo site up and running in no time!&lt;/p&gt;
+&lt;h2 id=&#34;1--install-hugo&#34;&gt;1. 🧱 Install Hugo&lt;/h2&gt;
+&lt;p&gt;First, you’ll need to &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;install Hugo&lt;/a&gt;. You can follow the instructions on the official site for your operating system.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2--create-a-new-website&#34;&gt;2. 🌱 Create a New Website&lt;/h2&gt;
+&lt;p&gt;Run the following command to create a new Hugo site (replace &lt;code&gt;MyFreshWebsite&lt;/code&gt; with your desired name):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My 1st post</title>
+      <link>http://localhost:1313/spacecraft/blogs/my-first-blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spacecraft/blogs/my-first-blog/</guid>
+      <description>Hugo Post.</description>
+    </item>
+    <item>
+      <title>OCR for Serial Number Recognition in Manufacturing</title>
+      <link>http://localhost:1313/spacecraft/projects/ocr_for_serial_number_recog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spacecraft/projects/ocr_for_serial_number_recog/</guid>
+      <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Poorly printed serial numbers lead to inventory and traceability issues.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Build a robust OCR pipeline for extracting serial numbers from industrial parts under real-world conditions.&lt;/p&gt;
+&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;A complete pipeline using preprocessing and Tesseract OCR to enhance and extract serial numbers accurately.&lt;/p&gt;
+&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Image cleanup (thresholding, skew correction)&lt;/li&gt;
+&lt;li&gt;Contour detection for ROI&lt;/li&gt;
+&lt;li&gt;Tesseract OCR with format validation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, OpenCV&lt;/li&gt;
+&lt;li&gt;Tesseract OCR&lt;/li&gt;
+&lt;li&gt;NumPy&lt;/li&gt;
+&lt;li&gt;Streamlit (optional demo UI)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OCR Accuracy (clean): 97%&lt;/li&gt;
+&lt;li&gt;OCR Accuracy (noisy): 88%&lt;/li&gt;
+&lt;li&gt;Processing Time: &amp;lt; 0.3s/image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(Insert before/after preprocessing, extracted text examples, and UI screenshots here)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Real-Time Visual Inspection on Conveyor Belt using YOLOv5</title>
+      <link>http://localhost:1313/spacecraft/projects/visual_inspection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spacecraft/projects/visual_inspection/</guid>
+      <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Manual inspection on conveyor belts is inefficient and error-prone.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Develop a real-time computer vision solution that detects, classifies, and counts items on a conveyor belt, highlighting defective ones.&lt;/p&gt;
+&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;Utilized YOLOv5 for object detection in conveyor belt video frames, distinguishing between normal and defective products.&lt;/p&gt;
+&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Video data collection + synthetic anomalies&lt;/li&gt;
+&lt;li&gt;YOLOv5 model training (Roboflow for annotation)&lt;/li&gt;
+&lt;li&gt;Real-time video processing with OpenCV&lt;/li&gt;
+&lt;li&gt;Detection overlays and count tracking&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, OpenCV&lt;/li&gt;
+&lt;li&gt;YOLOv5 (Ultralytics)&lt;/li&gt;
+&lt;li&gt;Roboflow&lt;/li&gt;
+&lt;li&gt;FFmpeg&lt;/li&gt;
+&lt;li&gt;Streamlit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Real-time FPS: ~20&lt;/li&gt;
+&lt;li&gt;Detection Accuracy: 96.3%&lt;/li&gt;
+&lt;li&gt;Counting Accuracy: 93.7%&lt;/li&gt;
+&lt;li&gt;Defect Detection: 91.2%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(Insert visuals from video frames, bounding boxes, and count graph screenshots here)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Surface Defect Detection on Metal Sheets using Deep Learning</title>
+      <link>http://localhost:1313/spacecraft/projects/surface_defect_detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/spacecraft/projects/surface_defect_detection/</guid>
+      <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Factories producing metal sheets face issues with undetected surface defects (scratches, dents, holes), leading to quality control problems.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Build an AI-powered computer vision system that can automatically detect and localize surface defects on metal sheets with high accuracy and real-time capabilities.&lt;/p&gt;
+&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;Developed a deep learning-based defect detection system using a convolutional neural network trained on the MVTec Anomaly Detection (AD) dataset, specifically the &amp;ldquo;metal_nut&amp;rdquo; and &amp;ldquo;metal_sheet&amp;rdquo; categories.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
