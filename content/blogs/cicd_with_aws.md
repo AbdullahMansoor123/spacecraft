@@ -1,6 +1,16 @@
-# CICD with AWS
+---
+title: "CICD with AWS"
+discription: "I just set up a CI/CD pipeline using AWS services. Here's a step-by-step guide on how I did it."
+datestring: 04/08/2024
+draft: false
+tags: ["CICD", "AWS"]
+cover: 
+    image: "images/cicd.png"
+---
 
-### Steps
+
+
+## Steps
 
 1. **Clone the GitHub Repo**  
    ```bash

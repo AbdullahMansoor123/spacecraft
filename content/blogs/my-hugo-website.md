@@ -1,8 +1,16 @@
+---
+title: "Hugo Website Setup"
+discription: ""
+datestring: 01/04/202
+draft: false
+tags: ["hugo", "website", "computer vision"]
+cover: 
+    image: images/hugo.PNG
+---
 
-# 🚀 How I Made My First Website Using Hugo
+
 
 I recently built my first website using [Hugo](https://gohugo.io/) — a lightning-fast static site generator. Here's a simple step-by-step guide on how I did it. If you're just getting started, this should help you get your first Hugo site up and running in no time!
-
 
 
 ## 1. 🧱 Install Hugo
@@ -90,3 +98,4 @@ hugo server -O
 ```
 
 This opens the site directly in your browser.
+

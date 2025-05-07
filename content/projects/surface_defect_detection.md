@@ -1,5 +1,14 @@
+---
+title: "Surface Defect Detection on Metal Sheets using Deep Learning"
+discription: ""
+datestring: 28/10/2024
+draft: false
+# tags: ["hugo", "image", "post"]
+cover: 
+    image: "images/defect.PNG"
+showtoc: false
+---
 
-# Project : Surface Defect Detection on Metal Sheets using Deep Learning
 
 ## Problem Statement
 Factories producing metal sheets face issues with undetected surface defects (scratches, dents, holes), leading to quality control problems.

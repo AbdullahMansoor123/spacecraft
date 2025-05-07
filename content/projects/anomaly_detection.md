@@ -1,4 +1,15 @@
-# Project 4: Anomaly Detection with Autoencoders for Rare Defect Identification
+---
+title: "Anomaly Detection with Autoencoders for Rare Defect Identification"
+discription: ""
+datestring: 15/02/2025
+draft: false
+# tags: ["hugo", "image", "post"]
+cover: 
+    image: "images/anomaly.JPG"
+showtoc: false
+---
+
+
 
 ## Problem Statement
 Supervised models fail to detect rare or unseen defects.

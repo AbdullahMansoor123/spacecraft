@@ -1,4 +1,15 @@
-# Project 3: OCR for Serial Number Recognition in Manufacturing
+---
+title: "OCR for Serial Number Recognition in Manufacturing"
+discription: ""
+datestring: 28/02/2025
+draft: false
+# tags: ["hugo", "image", "post"]
+cover: 
+    image: "images/num_plate.JPG"
+showtoc: false
+---
+
+
 
 ## Problem Statement
 Poorly printed serial numbers lead to inventory and traceability issues.

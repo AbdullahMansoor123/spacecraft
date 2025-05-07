@@ -1,3 +1,15 @@
+---
+title: "Computer Vision Engineer"
+discription: "A Computer Vision Engineer with a focus on deep learning and image processing for manufacturing."
+datestring: 05/05/202
+draft: false
+tags: ["Computer Vision", "Deep Learning", "Manufacturing"]
+cover: 
+    image: "home/my_git_pic.JPEG"
+---
+
+
+
 ## About Me
 
 As a **Computer Vision Engineer**, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.
