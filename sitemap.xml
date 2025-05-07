@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</loc>
-  </url><url>
     <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/</loc>
   </url><url>
     <loc>https://AbdullahMansoor123.github.io/spacecraft/tags/aws/</loc>
@@ -33,6 +31,8 @@
     <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/ocr_for_serial_number_recog/</loc>
   </url><url>
     <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/</loc>
+  </url><url>
+    <loc>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</loc>
   </url><url>
     <loc>https://AbdullahMansoor123.github.io/spacecraft/</loc>
   </url><url>

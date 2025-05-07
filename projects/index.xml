@@ -8,43 +8,6 @@
     <language>en-us</language>
     <atom:link href="https://AbdullahMansoor123.github.io/spacecraft/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</guid>
-      <description>&lt;h1 id=&#34;project-2-real-time-visual-inspection-on-conveyor-belt-using-yolov5&#34;&gt;Project 2: Real-Time Visual Inspection on Conveyor Belt using YOLOv5&lt;/h1&gt;
-&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
-&lt;p&gt;Manual inspection on conveyor belts is inefficient and error-prone.&lt;/p&gt;
-&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
-&lt;p&gt;Develop a real-time computer vision solution that detects, classifies, and counts items on a conveyor belt, highlighting defective ones.&lt;/p&gt;
-&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
-&lt;p&gt;Utilized YOLOv5 for object detection in conveyor belt video frames, distinguishing between normal and defective products.&lt;/p&gt;
-&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Video data collection + synthetic anomalies&lt;/li&gt;
-&lt;li&gt;YOLOv5 model training (Roboflow for annotation)&lt;/li&gt;
-&lt;li&gt;Real-time video processing with OpenCV&lt;/li&gt;
-&lt;li&gt;Detection overlays and count tracking&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Python, OpenCV&lt;/li&gt;
-&lt;li&gt;YOLOv5 (Ultralytics)&lt;/li&gt;
-&lt;li&gt;Roboflow&lt;/li&gt;
-&lt;li&gt;FFmpeg&lt;/li&gt;
-&lt;li&gt;Streamlit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Real-time FPS: ~20&lt;/li&gt;
-&lt;li&gt;Detection Accuracy: 96.3%&lt;/li&gt;
-&lt;li&gt;Counting Accuracy: 93.7%&lt;/li&gt;
-&lt;li&gt;Defect Detection: 91.2%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;(Insert visuals from video frames, bounding boxes, and count graph screenshots here)&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Anomaly Detection with Autoencoders for Rare Defect Identification</title>
       <link>https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,6 +72,42 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;(Insert before/after preprocessing, extracted text examples, and UI screenshots here)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Real-Time Visual Inspection on Conveyor Belt using YOLOv5</title>
+      <link>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</guid>
+      <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Manual inspection on conveyor belts is inefficient and error-prone.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Develop a real-time computer vision solution that detects, classifies, and counts items on a conveyor belt, highlighting defective ones.&lt;/p&gt;
+&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;Utilized YOLOv5 for object detection in conveyor belt video frames, distinguishing between normal and defective products.&lt;/p&gt;
+&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Video data collection + synthetic anomalies&lt;/li&gt;
+&lt;li&gt;YOLOv5 model training (Roboflow for annotation)&lt;/li&gt;
+&lt;li&gt;Real-time video processing with OpenCV&lt;/li&gt;
+&lt;li&gt;Detection overlays and count tracking&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, OpenCV&lt;/li&gt;
+&lt;li&gt;YOLOv5 (Ultralytics)&lt;/li&gt;
+&lt;li&gt;Roboflow&lt;/li&gt;
+&lt;li&gt;FFmpeg&lt;/li&gt;
+&lt;li&gt;Streamlit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Real-time FPS: ~20&lt;/li&gt;
+&lt;li&gt;Detection Accuracy: 96.3%&lt;/li&gt;
+&lt;li&gt;Counting Accuracy: 93.7%&lt;/li&gt;
+&lt;li&gt;Defect Detection: 91.2%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(Insert visuals from video frames, bounding boxes, and count graph screenshots here)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Surface Defect Detection on Metal Sheets using Deep Learning</title>
