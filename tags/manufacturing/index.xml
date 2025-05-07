@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Manufacturing on Spaceman Crafts</title>
+    <link>https://AbdullahMansoor123.github.io/spacecraft/tags/manufacturing/</link>
+    <description>Recent content in Manufacturing on Spaceman Crafts</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en-us</language>
+    <atom:link href="https://AbdullahMansoor123.github.io/spacecraft/tags/manufacturing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Vision Engineer</title>
+      <link>https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://AbdullahMansoor123.github.io/spacecraft/blogs/intro/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;p&gt;As a &lt;strong&gt;Computer Vision Engineer&lt;/strong&gt;, I harness advanced deep learning and image‐processing techniques to build AI-powered visual inspection systems that drive manufacturing quality and efficiency. My work bridges cutting-edge research with the rugged demands of the factory floor, delivering robust, deployable solutions that deliver clear ROI.&lt;/p&gt;
+&lt;h3 id=&#34;core-competencies&#34;&gt;Core Competencies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Surface Anomaly Detection&lt;/strong&gt;&lt;br&gt;
+Leverage convolutional neural networks and unsupervised learning to identify defects on complex textures in real time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Real-Time Conveyor-Belt Inspection&lt;/strong&gt;&lt;br&gt;
+Design and deploy low-latency vision pipelines for high-speed production lines, ensuring zero downtime and maximal throughput.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -5,10 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Spaceman Crafts</title>
-<meta name="keywords" content="">
-<meta name="description" content="CICD with AWS
-Steps
+<title>CICD with AWS | Spaceman Crafts</title>
+<meta name="keywords" content="CICD, AWS">
+<meta name="description" content="Steps
 
 
 Clone the GitHub Repo
@@ -90,8 +89,8 @@ Set Up EC2 Instance">
     </style>
 </noscript><meta property="og:url" content="https://AbdullahMansoor123.github.io/spacecraft/blogs/cicd_with_aws/">
   <meta property="og:site_name" content="Spaceman Crafts">
-  <meta property="og:title" content="Spaceman Crafts">
-  <meta property="og:description" content="CICD with AWS Steps Clone the GitHub Repo
+  <meta property="og:title" content="CICD with AWS">
+  <meta property="og:description" content="Steps Clone the GitHub Repo
 git clone https://github.com/AbdullahMansoor123/ml_end2end cd ml_end2end Create a Dockerfile
 Define the Dockerfile to build the application. Create a GitHub Workflow
 Set up GitHub Actions workflow for continuous integration. Create IAM User and Download Access Key
@@ -100,10 +99,13 @@ Create a repository in AWS Elastic Container Registry (ECR) and copy the reposit
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blogs">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="">
-<meta name="twitter:description" content="CICD with AWS
-Steps
+    <meta property="article:tag" content="CICD">
+    <meta property="article:tag" content="AWS">
+    <meta property="og:image" content="https://AbdullahMansoor123.github.io/spacecraft/images/cicd.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://AbdullahMansoor123.github.io/spacecraft/images/cicd.png">
+<meta name="twitter:title" content="CICD with AWS">
+<meta name="twitter:description" content="Steps
 
 
 Clone the GitHub Repo
@@ -152,7 +154,7 @@ Set Up EC2 Instance">
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "",
+      "name": "CICD with AWS",
       "item": "https://AbdullahMansoor123.github.io/spacecraft/blogs/cicd_with_aws/"
     }
   ]
@@ -162,16 +164,16 @@ Set Up EC2 Instance">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "",
-  "name": "",
-  "description": "CICD with AWS Steps Clone the GitHub Repo\ngit clone https://github.com/AbdullahMansoor123/ml_end2end cd ml_end2end Create a Dockerfile\nDefine the Dockerfile to build the application. Create a GitHub Workflow\nSet up GitHub Actions workflow for continuous integration. Create IAM User and Download Access Key\nCreate an IAM user in AWS with necessary permissions and download the access key and secret key. Create AWS ECR Repo and Copy URL\nCreate a repository in AWS Elastic Container Registry (ECR) and copy the repository URL. Set Up EC2 Instance\n",
+  "headline": "CICD with AWS",
+  "name": "CICD with AWS",
+  "description": "Steps Clone the GitHub Repo\ngit clone https://github.com/AbdullahMansoor123/ml_end2end cd ml_end2end Create a Dockerfile\nDefine the Dockerfile to build the application. Create a GitHub Workflow\nSet up GitHub Actions workflow for continuous integration. Create IAM User and Download Access Key\nCreate an IAM user in AWS with necessary permissions and download the access key and secret key. Create AWS ECR Repo and Copy URL\nCreate a repository in AWS Elastic Container Registry (ECR) and copy the repository URL. Set Up EC2 Instance\n",
   "keywords": [
-    
+    "CICD", "AWS"
   ],
-  "articleBody": "CICD with AWS Steps Clone the GitHub Repo\ngit clone https://github.com/AbdullahMansoor123/ml_end2end cd ml_end2end Create a Dockerfile\nDefine the Dockerfile to build the application. Create a GitHub Workflow\nSet up GitHub Actions workflow for continuous integration. Create IAM User and Download Access Key\nCreate an IAM user in AWS with necessary permissions and download the access key and secret key. Create AWS ECR Repo and Copy URL\nCreate a repository in AWS Elastic Container Registry (ECR) and copy the repository URL. Set Up EC2 Instance\nLaunch an EC2 instance and configure it as follows: sudo apt-get update -y sudo apt-get update curl -fsSL https://get.docker.com -o get-docker.sh sudo sh get-docker.sh sudo usermod -aG docker ubuntu newgrp docker check if the setup completed successfully by running docker images on the EC2 instance Create Runner on GitHub to Connect Repo with EC2\nCreate a Folder for the Runner\nmkdir actions-runner \u0026\u0026 cd actions-runner Download the Latest Runner Package\ncurl -o actions-runner-linux-x64-2.319.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.319.1/actions-runner-linux-x64-2.319.1.tar.gz Optional: Validate the Hash\necho \"3f6efb7488a183e291fc2c62876e14c9ee732864173734facc85a1bfb1744464 actions-runner-linux-x64-2.319.1.tar.gz\" | shasum -a 256 -c Extract the Installer\ntar xzf ./actions-runner-linux-x64-2.319.1.tar.gz Configure the Runner\n./config.sh --url https://github.com/AbdullahMansoor123/ml_end2end --token Run the Runner\n./run.sh Update GitHub Workflow YAML\nUse the following in your GitHub Actions workflow file:\nruns-on: self-hosted Add GitHub Secrets for AWS\nAdd AWS credentials (access key and secret key) as GitHub secrets for your workflow to access AWS services. Edit Inbound Rules for EC2 Instance\nGo to the Security settings of your EC2 instance. Navigate to Security Groups. Edit the Inbound Rules by adding a Custom TCP rule with the port number 4242 as specified in the GitHub workflow file Initiate CICD github workflow\nCommit and push any change in the git repo to intiate cicd workflow. ",
-  "wordCount" : "285",
+  "articleBody": "Steps Clone the GitHub Repo\ngit clone https://github.com/AbdullahMansoor123/ml_end2end cd ml_end2end Create a Dockerfile\nDefine the Dockerfile to build the application. Create a GitHub Workflow\nSet up GitHub Actions workflow for continuous integration. Create IAM User and Download Access Key\nCreate an IAM user in AWS with necessary permissions and download the access key and secret key. Create AWS ECR Repo and Copy URL\nCreate a repository in AWS Elastic Container Registry (ECR) and copy the repository URL. Set Up EC2 Instance\nLaunch an EC2 instance and configure it as follows: sudo apt-get update -y sudo apt-get update curl -fsSL https://get.docker.com -o get-docker.sh sudo sh get-docker.sh sudo usermod -aG docker ubuntu newgrp docker check if the setup completed successfully by running docker images on the EC2 instance Create Runner on GitHub to Connect Repo with EC2\nCreate a Folder for the Runner\nmkdir actions-runner \u0026\u0026 cd actions-runner Download the Latest Runner Package\ncurl -o actions-runner-linux-x64-2.319.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.319.1/actions-runner-linux-x64-2.319.1.tar.gz Optional: Validate the Hash\necho \"3f6efb7488a183e291fc2c62876e14c9ee732864173734facc85a1bfb1744464 actions-runner-linux-x64-2.319.1.tar.gz\" | shasum -a 256 -c Extract the Installer\ntar xzf ./actions-runner-linux-x64-2.319.1.tar.gz Configure the Runner\n./config.sh --url https://github.com/AbdullahMansoor123/ml_end2end --token Run the Runner\n./run.sh Update GitHub Workflow YAML\nUse the following in your GitHub Actions workflow file:\nruns-on: self-hosted Add GitHub Secrets for AWS\nAdd AWS credentials (access key and secret key) as GitHub secrets for your workflow to access AWS services. Edit Inbound Rules for EC2 Instance\nGo to the Security settings of your EC2 instance. Navigate to Security Groups. Edit the Inbound Rules by adding a Custom TCP rule with the port number 4242 as specified in the GitHub workflow file Initiate CICD github workflow\nCommit and push any change in the git repo to intiate cicd workflow. ",
+  "wordCount" : "282",
   "inLanguage": "en",
-  "datePublished": "0001-01-01T00:00:00Z",
+  "image":"https://AbdullahMansoor123.github.io/spacecraft/images/cicd.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -238,14 +240,17 @@ Set Up EC2 Instance">
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      
+      CICD with AWS
     </h1>
     <div class="post-meta">
 
 </div>
   </header> 
-  <div class="post-content"><h1 id="cicd-with-aws">CICD with AWS<a hidden class="anchor" aria-hidden="true" href="#cicd-with-aws">#</a></h1>
-<h3 id="steps">Steps<a hidden class="anchor" aria-hidden="true" href="#steps">#</a></h3>
+<figure class="entry-cover">
+        <img loading="eager" src="https://AbdullahMansoor123.github.io/spacecraft/images/cicd.png" alt="">
+        
+</figure>
+  <div class="post-content"><h2 id="steps">Steps<a hidden class="anchor" aria-hidden="true" href="#steps">#</a></h2>
 <ol>
 <li>
 <p><strong>Clone the GitHub Repo</strong></p>
@@ -350,6 +355,8 @@ Use the following in your GitHub Actions workflow file:</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://AbdullahMansoor123.github.io/spacecraft/tags/cicd/">CICD</a></li>
+      <li><a href="https://AbdullahMansoor123.github.io/spacecraft/tags/aws/">AWS</a></li>
     </ul>
   </footer>
 </article>

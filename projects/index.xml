@@ -9,87 +9,6 @@
     <atom:link href="https://AbdullahMansoor123.github.io/spacecraft/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/</guid>
-      <description>&lt;h1 id=&#34;project-4-anomaly-detection-with-autoencoders-for-rare-defect-identification&#34;&gt;Project 4: Anomaly Detection with Autoencoders for Rare Defect Identification&lt;/h1&gt;
-&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
-&lt;p&gt;Supervised models fail to detect rare or unseen defects.&lt;/p&gt;
-&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
-&lt;p&gt;Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.&lt;/p&gt;
-&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
-&lt;p&gt;A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.&lt;/p&gt;
-&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Train autoencoder on clean data&lt;/li&gt;
-&lt;li&gt;Compute reconstruction error&lt;/li&gt;
-&lt;li&gt;Threshold to identify anomalies&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Keras / TensorFlow&lt;/li&gt;
-&lt;li&gt;OpenCV, NumPy&lt;/li&gt;
-&lt;li&gt;MVTec AD dataset&lt;/li&gt;
-&lt;li&gt;Streamlit (optional UI)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;AUC-ROC: 0.91&lt;/li&gt;
-&lt;li&gt;Detection Accuracy: ~90%&lt;/li&gt;
-&lt;li&gt;False Positive Rate: ~8%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;(Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://AbdullahMansoor123.github.io/spacecraft/projects/ocr_for_serial_number_recog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/ocr_for_serial_number_recog/</guid>
-      <description>&lt;h1 id=&#34;project-3-ocr-for-serial-number-recognition-in-manufacturing&#34;&gt;Project 3: OCR for Serial Number Recognition in Manufacturing&lt;/h1&gt;
-&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
-&lt;p&gt;Poorly printed serial numbers lead to inventory and traceability issues.&lt;/p&gt;
-&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
-&lt;p&gt;Build a robust OCR pipeline for extracting serial numbers from industrial parts under real-world conditions.&lt;/p&gt;
-&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
-&lt;p&gt;A complete pipeline using preprocessing and Tesseract OCR to enhance and extract serial numbers accurately.&lt;/p&gt;
-&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Image cleanup (thresholding, skew correction)&lt;/li&gt;
-&lt;li&gt;Contour detection for ROI&lt;/li&gt;
-&lt;li&gt;Tesseract OCR with format validation&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Python, OpenCV&lt;/li&gt;
-&lt;li&gt;Tesseract OCR&lt;/li&gt;
-&lt;li&gt;NumPy&lt;/li&gt;
-&lt;li&gt;Streamlit (optional demo UI)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;OCR Accuracy (clean): 97%&lt;/li&gt;
-&lt;li&gt;OCR Accuracy (noisy): 88%&lt;/li&gt;
-&lt;li&gt;Processing Time: &amp;lt; 0.3s/image&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;(Insert before/after preprocessing, extracted text examples, and UI screenshots here)&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://AbdullahMansoor123.github.io/spacecraft/projects/surface_defect_detection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/surface_defect_detection/</guid>
-      <description>&lt;h1 id=&#34;project--surface-defect-detection-on-metal-sheets-using-deep-learning&#34;&gt;Project : Surface Defect Detection on Metal Sheets using Deep Learning&lt;/h1&gt;
-&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
-&lt;p&gt;Factories producing metal sheets face issues with undetected surface defects (scratches, dents, holes), leading to quality control problems.&lt;/p&gt;
-&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
-&lt;p&gt;Build an AI-powered computer vision system that can automatically detect and localize surface defects on metal sheets with high accuracy and real-time capabilities.&lt;/p&gt;
-&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
-&lt;p&gt;Developed a deep learning-based defect detection system using a convolutional neural network trained on the MVTec Anomaly Detection (AD) dataset, specifically the &amp;ldquo;metal_nut&amp;rdquo; and &amp;ldquo;metal_sheet&amp;rdquo; categories.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/visual_inspection/</guid>
@@ -124,6 +43,84 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;(Insert visuals from video frames, bounding boxes, and count graph screenshots here)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anomaly Detection with Autoencoders for Rare Defect Identification</title>
+      <link>https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/anomaly_detection/</guid>
+      <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Supervised models fail to detect rare or unseen defects.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Develop an unsupervised anomaly detection system using autoencoders trained only on defect-free images.&lt;/p&gt;
+&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;A CNN-based autoencoder reconstructs normal images. Defects are detected via high reconstruction error and visualized with heatmaps.&lt;/p&gt;
+&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Train autoencoder on clean data&lt;/li&gt;
+&lt;li&gt;Compute reconstruction error&lt;/li&gt;
+&lt;li&gt;Threshold to identify anomalies&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Keras / TensorFlow&lt;/li&gt;
+&lt;li&gt;OpenCV, NumPy&lt;/li&gt;
+&lt;li&gt;MVTec AD dataset&lt;/li&gt;
+&lt;li&gt;Streamlit (optional UI)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AUC-ROC: 0.91&lt;/li&gt;
+&lt;li&gt;Detection Accuracy: ~90%&lt;/li&gt;
+&lt;li&gt;False Positive Rate: ~8%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(Insert input vs. reconstructed images, heatmaps, and pixel-score thresholds here)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OCR for Serial Number Recognition in Manufacturing</title>
+      <link>https://AbdullahMansoor123.github.io/spacecraft/projects/ocr_for_serial_number_recog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/ocr_for_serial_number_recog/</guid>
+      <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Poorly printed serial numbers lead to inventory and traceability issues.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Build a robust OCR pipeline for extracting serial numbers from industrial parts under real-world conditions.&lt;/p&gt;
+&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;A complete pipeline using preprocessing and Tesseract OCR to enhance and extract serial numbers accurately.&lt;/p&gt;
+&lt;h3 id=&#34;workflow&#34;&gt;Workflow&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Image cleanup (thresholding, skew correction)&lt;/li&gt;
+&lt;li&gt;Contour detection for ROI&lt;/li&gt;
+&lt;li&gt;Tesseract OCR with format validation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python, OpenCV&lt;/li&gt;
+&lt;li&gt;Tesseract OCR&lt;/li&gt;
+&lt;li&gt;NumPy&lt;/li&gt;
+&lt;li&gt;Streamlit (optional demo UI)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OCR Accuracy (clean): 97%&lt;/li&gt;
+&lt;li&gt;OCR Accuracy (noisy): 88%&lt;/li&gt;
+&lt;li&gt;Processing Time: &amp;lt; 0.3s/image&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;visuals&#34;&gt;Visuals&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(Insert before/after preprocessing, extracted text examples, and UI screenshots here)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Surface Defect Detection on Metal Sheets using Deep Learning</title>
+      <link>https://AbdullahMansoor123.github.io/spacecraft/projects/surface_defect_detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://AbdullahMansoor123.github.io/spacecraft/projects/surface_defect_detection/</guid>
+      <description>&lt;h2 id=&#34;problem-statement&#34;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Factories producing metal sheets face issues with undetected surface defects (scratches, dents, holes), leading to quality control problems.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Build an AI-powered computer vision system that can automatically detect and localize surface defects on metal sheets with high accuracy and real-time capabilities.&lt;/p&gt;
+&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;Developed a deep learning-based defect detection system using a convolutional neural network trained on the MVTec Anomaly Detection (AD) dataset, specifically the &amp;ldquo;metal_nut&amp;rdquo; and &amp;ldquo;metal_sheet&amp;rdquo; categories.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

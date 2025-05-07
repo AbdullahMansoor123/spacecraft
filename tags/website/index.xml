@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Website on Spaceman Crafts</title>
+    <link>https://AbdullahMansoor123.github.io/spacecraft/tags/website/</link>
+    <description>Recent content in Website on Spaceman Crafts</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en-us</language>
+    <atom:link href="https://AbdullahMansoor123.github.io/spacecraft/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Website Setup</title>
+      <link>https://AbdullahMansoor123.github.io/spacecraft/blogs/my-hugo-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://AbdullahMansoor123.github.io/spacecraft/blogs/my-hugo-website/</guid>
+      <description>&lt;p&gt;I recently built my first website using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; — a lightning-fast static site generator. Here&amp;rsquo;s a simple step-by-step guide on how I did it. If you&amp;rsquo;re just getting started, this should help you get your first Hugo site up and running in no time!&lt;/p&gt;
+&lt;h2 id=&#34;1--install-hugo&#34;&gt;1. 🧱 Install Hugo&lt;/h2&gt;
+&lt;p&gt;First, you’ll need to &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;install Hugo&lt;/a&gt;. You can follow the instructions on the official site for your operating system.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2--create-a-new-website&#34;&gt;2. 🌱 Create a New Website&lt;/h2&gt;
+&lt;p&gt;Run the following command to create a new Hugo site (replace &lt;code&gt;MyFreshWebsite&lt;/code&gt; with your desired name):&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
