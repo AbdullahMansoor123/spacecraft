@@ -1,0 +1,59 @@
+baseURL : "https://AbdullahMansoor123.github.io/spacecraft/"
+languageCode : 'en-us'
+title : 'Spaceman Crafts'
+theme : "PaperMod"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /home/
+      weight: 10
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    # - identifier: search
+    #   name: Search
+    #   url: /search/
+      # weight: 40
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+
+# env: production
+
+params:
+  profileMode:
+    enabled: true
+    title: "Abdullah" # optional default will be site title
+    subtitle: "Computer Vision Engineer"
+    imageUrl: "home/my_git_pic.jpeg" # optional
+    # imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+  ShowBreadCrumbs : true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+  
+  ShowPostNavLinks: true
+  # button:
+    # - name: Resume
+      # url:  "google doc"
+
+
+  socialIcons: # optional
+    - name: "email"
+      url: "abdullahmansoor123@gmail.com"
+    - name: "linkedIn"
+      url: "https://www.linkedin.com/in/abdullah-123/"
+    - name: "gitHub"
+      url: "https://github.com/AbdullahMansoor123"
