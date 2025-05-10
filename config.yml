@@ -5,10 +5,10 @@ theme : "PaperMod"
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /home/
-      weight: 10
+    # - identifier: home
+    #   name: Home
+    #   url: /home/
+    #   weight: 10
     - identifier: blogs
       name: Blogs
       url: /blogs/
@@ -33,7 +33,7 @@ params:
     enabled: true
     title: "Abdullah" # optional default will be site title
     subtitle: "Computer Vision Engineer"
-    imageUrl: "home/my_git_pic.jpeg" # optional
+    imageUrl: "images/my_git_pic.jpeg" # optional
     # imageTitle: "<title of image as alt>" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
